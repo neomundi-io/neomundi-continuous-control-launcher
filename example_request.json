@@ -1,3 +1,6 @@
 {
-  "_comment": "Replace this example with the exact payload supported by the NeoMundi /v1/govern/stream API. No request fields are assumed in this public template yet."
+  "prompt": "Explain why runtime stability should not be confused with factual correctness.",
+  "model": "gpt-4o-2024-11-20",
+  "provider": "openai",
+  "provider_api_key": "${PROVIDER_API_KEY}"
 }
