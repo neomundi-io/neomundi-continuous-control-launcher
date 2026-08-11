@@ -1,6 +1,5 @@
 {
   "prompt": "Explain why runtime stability should not be confused with factual correctness.",
   "model": "gpt-4o-2024-11-20",
-  "provider": "openai",
-  "provider_api_key": "${PROVIDER_API_KEY}"
+  "provider": "openai"
 }
