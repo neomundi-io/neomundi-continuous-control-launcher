@@ -1,0 +1,26 @@
+{
+  "launcher": {
+    "name": "neomundi-continuous-control-launcher",
+    "version": "0.1.0"
+  },
+
+  "runtime": {
+    "endpoint": "/v1/govern/stream",
+    "mode": "OBS",
+    "stream": true
+  },
+
+  "journal": {
+    "enabled": true,
+    "log_request": true,
+    "log_response": true,
+    "log_signals": true,
+    "log_decision": true,
+    "timestamp": true
+  },
+
+  "interpretation": {
+    "enabled": true,
+    "source": "docs/SIGNALS.md"
+  }
+}
